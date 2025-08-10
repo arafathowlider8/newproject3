@@ -1,0 +1,54 @@
+section{background-color: yellow;}
+.mainbox{
+    display: flex;
+    border: 1px solid white;
+    gap: 20px;
+
+}
+.heder{color: wheat;
+    border: 1px solid red;
+    background-color: blue;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 25px;
+    text-align: center;
+    gap: 10px;
+}
+.firstbox{
+    height: 400px;
+    width: 350px;
+        flex-direction: column;
+    flex-grow: 1px;
+    display: flex;
+    border: 3px solid green;}
+    
+    
+.secondbox{
+    flex-direction: column;
+    height: auto;
+    width: 900px;
+    flex-grow: 2px;
+        display: flex;
+    border: 4px dotted red;
+}
+.child1{
+    border: 1px solid green;
+    background-color: aqua;
+    flex-grow: 1;
+}
+.child{color: white;
+    border: 1px solid skyblue;
+    background-color: blue;
+    flex-grow: 1;
+    flex-wrap: 1;
+    align-content: center;
+     text-align: center; 
+}
+.child:hover{
+    background-color: red;
+}
+
+img{
+    height: 270px;
+    width: 205px;
+}
